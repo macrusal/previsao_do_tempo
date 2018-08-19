@@ -30,6 +30,29 @@ class ViewController: UIViewController {
     }
 
     @IBAction func textFieldEndEditing(_ sender: UITextField) {
+        let baseURL = "http://api.openweathermap.org/data/2.5/forecast?q=";
+        let nomeCidade = "Brazil";
+        let APIKey = "&appid=9526ed8093dc32fd14a8d0941367665b";
+        if let finalURL = URL(string: baseURL + nomeCidade + APIKey) {
+            requestDadosPrevisao(url: finalURL);
+        } else {
+            print("URL mal formada!");
+        }
+    }
+    
+    func requestDadosPrevisao(url : URL) {
+        let tarefa = URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            if let urlResponse = response {
+                print(urlResponse);
+            }
+            if let errorResponse = error {
+                print(errorResponse);
+            } else if let dataResponse = data {
+                print(dataResponse);
+            }
+        }
+        tarefa.resume();
     }
 
     @IBAction func pressedHoje(_ sender: UIBarButtonItem) {

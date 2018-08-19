@@ -12,6 +12,8 @@
 		9CF2A19A2128C61D00312EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF2A1982128C61D00312EF4 /* Main.storyboard */; };
 		9CF2A19C2128C62000312EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF2A19B2128C62000312EF4 /* Assets.xcassets */; };
 		9CF2A19F2128C62000312EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF2A19D2128C62000312EF4 /* LaunchScreen.storyboard */; };
+		9CF2A1A72128F05D00312EF4 /* PrevisaoTempoStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2A1A62128F05D00312EF4 /* PrevisaoTempoStructures.swift */; };
+		9CF2A1A92128F3C500312EF4 /* PrevisaoTempoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2A1A82128F3C500312EF4 /* PrevisaoTempoHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9CF2A19B2128C62000312EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF2A19E2128C62000312EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF2A1A02128C62000312EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF2A1A62128F05D00312EF4 /* PrevisaoTempoStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevisaoTempoStructures.swift; sourceTree = "<group>"; };
+		9CF2A1A82128F3C500312EF4 /* PrevisaoTempoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevisaoTempoHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9CF2A19B2128C62000312EF4 /* Assets.xcassets */,
 				9CF2A19D2128C62000312EF4 /* LaunchScreen.storyboard */,
 				9CF2A1A02128C62000312EF4 /* Info.plist */,
+				9CF2A1A62128F05D00312EF4 /* PrevisaoTempoStructures.swift */,
+				9CF2A1A82128F3C500312EF4 /* PrevisaoTempoHandler.swift */,
 			);
 			path = "Previsão do Tempo";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF2A1972128C61D00312EF4 /* ViewController.swift in Sources */,
+				9CF2A1A92128F3C500312EF4 /* PrevisaoTempoHandler.swift in Sources */,
 				9CF2A1952128C61D00312EF4 /* AppDelegate.swift in Sources */,
+				9CF2A1A72128F05D00312EF4 /* PrevisaoTempoStructures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
